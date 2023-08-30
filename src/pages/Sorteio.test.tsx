@@ -46,8 +46,8 @@ describe('na página de sorteio', () => {
         const select = screen.getByPlaceholderText('Selecione o seu nome')
 
         fireEvent.change(select, {
-            terget: {
-                value: participantes[1]
+            target: {
+                value: participantes[0]
             }
         })
 
